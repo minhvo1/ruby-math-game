@@ -6,4 +6,7 @@ class Player
     @life = life
   end
 
+  def deduct_life
+    @life -= 1
+  end
 end
